@@ -11,7 +11,7 @@ jobs:
     runs-on: "ubuntu-latest"
     steps:
     - uses: "actions/checkout@v3"
-    - uses: "mr-smithers-excellent/docker-build-push@v6"
+    - uses: "mr-smithers-excellent/docker-build-push@v7"
       with:
         image: "sshclient"
         addLatest: true
