@@ -1,7 +1,7 @@
 It's just ubuntu with ssh installed, in a container:
 
 ```yaml
-image: "ghcr.io/daaang/sshclient:latest"
+kubectl run -it --rm --image ghcr.io/daaang/sshclient:latest POD_NAME
 ```
 
 It builds weekly based on [ubuntu:latest][1]. In order to get this to
