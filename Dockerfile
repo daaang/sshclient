@@ -1,2 +1,2 @@
-FROM ubuntu:resolute-20260707@sha256:3131b4cc82a783df6c9df078f86e01819a13594b865c2cad47bd1bca2b7063bb
+FROM ubuntu:resolute-20260912@sha256:e17b7bc0f0123c030d24551ef8f2d0afd52394b1d57a00a819099c47a39e19e5
 RUN apt-get update && apt-get install -y ssh
